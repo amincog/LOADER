@@ -21,7 +21,7 @@ Home:addButton("universal v1", function()
 end)
 Home:addButton("fling", function()
     local success, err = pcall(function()
-        loadstring(game:HttpGet("https://https://raw.githubusercontent.com/amincog/metrixhub/refs/heads/main/fling.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/amincog/metrixhub/refs/heads/main/fling.lua"))()
     end)
     if success then
         game.StarterGui:SetCore("SendNotification",{
